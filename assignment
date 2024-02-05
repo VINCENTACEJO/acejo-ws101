@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table tennis</title>
+</head>
+<body>
+    <style>
+         table {
+      font-family: Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 3px solid #dddddd;
+      text-align: left;
+      padding: 7px;
+    }
+
+    th {
+      background-color: #dddddd;
+    }
+
+    .leaderboard-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .leaderboard-table {
+      width: 50%;
+    }
+    </style>
+
+</body>
+<body>
+    <br>
+    <center><h1> Table Tennis </h1></center>
+    <h2><dd> Overview </h2></dd>
+    <p><dd> Table tennis is a racket sport derived from tennis but distinguished by its playing surface being atop a stationary table, rather than the court on which players stand.  </p></dd>
+      <hr> 
+    <div class="leaderboard-container">
+      <div class="leaderboard-table">
+        <br>
+        <h3><dd>Table Tennis Players Single Leaderboard </h3></dd>
+    
+        <table>
+          <tr>
+            <th>Position</th>
+            <th>Last name</th>
+            <th>First name</th>
+            <th>Points</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Zhendong </td>
+            <td>Fan</td>
+            <td>7,455</td>
+            <td>china</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Chuqin</td>
+            <td>WANG</td>
+            <td>6,720</td>
+            <td>china</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>long</td>
+            <td>ma</td>
+            <td>4,810</td>
+            <td>china</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>lIANG</td>
+            <td>Jingkun</td>
+            <td>3,225</td>
+            <td>china</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>LIN</td>
+            <td>Gaoyuan</td>
+            <td>2,785</td>
+            <td>china</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="leaderboard-table">
+        <br>
+        <h3><dd> Table tennis Players Double Leaderboard </h3></dd>
+    
+        <table>
+          <tr>
+            <th>Position</th>
+            <th>Partner 1 </th>
+            <th>Partner 2</th>
+            <th>Points</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Zhendong FAN</td>
+            <td>Chuqin WANG</td>
+            <td>6,720</td>
+            <td>China</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Jang woojin</td>
+            <td>Lim jonghoon</td>
+            <td>4,218</td>
+            <td>Korea</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Lin gaoyuan</td>
+            <td>Lin Shidong</td>
+            <td>2,505</td>
+            <td>China</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Lim jonghoon</td>
+            <td>AN jaehyun</td>
+            <td>2,158</td>
+            <td>Korea</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>YUAN licen</td>
+            <td>XIANG peng</td>
+            <td>1,784</td>
+            <td>China</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <h1><dd> Rules of Table Tennis </h1></dd>
+    <ol>
+      <li> A Game is played to 11 points. A Game must be won by two points. A Match is generally the best three of five Games. </li>
+      <br>
+      <li> Each side of the table alternates serving two points at a time. EXCEPTION: After tied 10-10 (“deuce”), service alternates at every point. Can you lose on a serve in ping pong? Yes! There is no separate rule for serving on Game Point</li>
+      <br>
+      <li> How do you serve the ball in ping pong? Hold the ball in your open palm, behind your end of the table. Toss at least 6” straight up, and strike it on the way down. It must hit your side of the table and then the other side. NOTE: Once the ball leaves the server’s hand it is in play, and so counts as the receiver’s point if the ball is missed or mis-hit..</li>
+      <br>
+      <li> There is no restriction on where the ball lands on your side or your opponent’s side of the table. It can bounce two or more times on your opponent’s side (if so, that’s your point), bounce over the side, or even hit the edge. </li>
+      <br>
+      <li> The serve must bounce in the server’s right court, and receiver’s right court (NOTE: landing on center line is fair). Doubles partners switch places after their team serves twice.</li>
+      <br>
+    </ol>
+    <br>
+    <p><center> If u want to know more about the Rules of Table Tennis <a href="https://www.pongfit.org/official-rules-of-table-tennis" target="_blank">click here</a>.</p></center>
+    <br>
+    <hr>
+    <br>
+    <center><h1> Game Setup </h1></center>
+    <br>
+    <figure style="display: flex; flex-direction: column; align-items: center;">
+        <img src="https://media1.tenor.com/m/tXaPYjGqRBAAAAAC/table-tennis-olympic.gif" alt="Table Tennis Image 1" style="width: 500px;">
+        <figcaption style="margin-top: 10px;"> Single Table Tennis Game </figcaption>
+        <br>
+        <img src="https://x0.ifengimg.com/ucms/2020_33/8A038E74B76141E5C25404328B4AC8E3FBED4704_w569_h335.gif" alt="Table Tennis Image 2" style="width: 500px;">
+        <figcaption style="margin-top: 10px;"> Double Table Tennis Game </figcaption>
+    </figure>
+    <hr>
+    <br>
+  </body>
+</html>
